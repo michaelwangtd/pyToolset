@@ -14,6 +14,7 @@ import os
 CACHE = 'cache'
 BACKUP = 'backup'
 JSONPOOL = 'jsonpool'
+TXTPOOL = 'txtpool'
 
 
 '''
@@ -30,6 +31,8 @@ ROOTPATH = 'D:\\workstation\\repositories\\pyToolset'
 IFENGDATAPLAYGROUND = 'D:\\workstation\\ifengDataPlayground'
 # ifengjsonpool
 IFENGJSONPOOL = os.path.join(IFENGDATAPLAYGROUND,JSONPOOL)
+# ifengtxtpool
+IFENGTXTPOOL = os.path.join(IFENGDATAPLAYGROUND,TXTPOOL)
 # ifengcachedata
 IFENGCACHEDATA = os.path.join(IFENGDATAPLAYGROUND,CACHE)
 # ifengbackupdata
